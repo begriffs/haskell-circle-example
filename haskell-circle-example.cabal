@@ -1,16 +1,19 @@
 name:                haskell-circle-example
 version:             0.1.0.0
-synopsis:            Simple project template from stack
-description:         Please see README.md
-homepage:            http://github.com/githubuser/haskell-circle-example#readme
-license:             BSD3
+synopsis:            Circle CI config for squeaky clean code
+description:         All the most hellish settings
+homepage:            http://github.com/begriffs/haskell-circle-example#readme
+license:             MIT
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2010 Author Here
+author:              Joe Nelson
+maintainer:          cred+github@begriffs.com
+copyright:           2016 Joe Nelson
 category:            Web
 build-type:          Simple
 cabal-version:       >=1.10
+source-repository head
+  type: git
+  location: git://github.com/begriffs/haskell-circle-example.git
 
 executable haskell-circle-example
   hs-source-dirs:      src
