@@ -6,9 +6,3 @@ ghc-options:
 
 packages:
 - '.'
-
-# Programs used by CI to run additional tests
-extra-deps:
-- hlint-1.9.26
-- packdeps-0.4.2.1
-- cabal-install-1.22.7.0
