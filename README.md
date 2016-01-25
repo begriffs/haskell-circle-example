@@ -1,4 +1,6 @@
-### High Quality Haskell CI
+### High-Quality Haskell CI
+
+[![Circle CI](https://circleci.com/gh/begriffs/haskell-circle-example.svg?style=svg)](https://circleci.com/gh/begriffs/haskell-circle-example)
 
 Best practices for Haskell continuous integration on CircleCI. This
 repo is a place to collaborate and refine techniques to enforce
