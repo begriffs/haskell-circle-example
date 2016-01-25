@@ -12,7 +12,7 @@ dependencies:
 test:
   override:
     - stack test
-    - stack exec -- hlint -X QuasiQuotes src/**/*.hs
+    - git ls-files | grep '\.l\?hs$' | xargs stack exec -- hlint -X QuasiQuotes "$@"
     - stack exec -- packdeps *.cabal || true
     - stack exec -- cabal check
     - stack exec -- cabal sdist
