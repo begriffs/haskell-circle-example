@@ -2,7 +2,7 @@ resolver: lts-4.2
 
 # Almost all warnings, plus minimal-imports for packunused
 ghc-options:
-  "*": -ddump-minimal-imports -Werror -Wall -fwarn-incomplete-uni-patterns -fwarn-incomplete-record-updates -fwarn-monomorphism-restriction -fwarn-auto-orphans -fwarn-missing-local-sigs -fwarn-missing-exported-sigs -fwarn-missing-import-lists -fwarn-identities
+  haskell-circle-example: -ddump-minimal-imports -Werror -Wall -fwarn-incomplete-uni-patterns -fwarn-incomplete-record-updates -fwarn-monomorphism-restriction -fwarn-auto-orphans -fwarn-missing-local-sigs -fwarn-missing-exported-sigs -fwarn-missing-import-lists -fwarn-identities
 
 packages:
 - '.'
