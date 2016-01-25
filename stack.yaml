@@ -11,5 +11,4 @@ packages:
 extra-deps:
 - hlint-1.9.26
 - packdeps-0.4.2.1
-- packunused-0.1.1.4
 - cabal-install-1.22.7.0
