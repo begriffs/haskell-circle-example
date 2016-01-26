@@ -6,7 +6,6 @@ dependencies:
     - sudo mv /tmp/stack-1.0.2-linux-x86_64/stack /usr/bin/stack
   override:
     - stack setup
-    - stack build --no-haddock-deps
     - stack install hlint packdeps cabal-install
 
 test:

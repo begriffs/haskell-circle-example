@@ -19,4 +19,5 @@ clean code.
 #### TODO
 
 * Check fur unused dependencies (must fix packunused [#18](https://github.com/hvr/packunused/issues/18)
+* Enable test coverage report (hpc or `stack test --coverage`)
 * Create a Stack template out of this repo when it matures
