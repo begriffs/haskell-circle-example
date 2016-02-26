@@ -18,6 +18,6 @@ clean code.
 
 #### TODO
 
-* Check fur unused dependencies (must fix packunused [#18](https://github.com/hvr/packunused/issues/18)
-* Enable test coverage report (hpc or `stack test --coverage`)
-* Create a Stack template out of this repo when it matures
+There are more cool things we can do. See the
+[issues](https://github.com/begriffs/haskell-circle-example/issues) where
+I've recorded some ideas.
