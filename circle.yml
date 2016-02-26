@@ -8,7 +8,7 @@ dependencies:
   override:
     - stack setup
     - stack install hlint packdeps cabal-install
-    - stack build --test --no-run-tests
+    - stack build --haddock --test --no-run-tests --no-haddock-deps
 
 test:
   override:
@@ -18,5 +18,4 @@ test:
     - stack exec --no-ghc-package-path -- cabal install --only-d --dry-run
     - stack exec -- packdeps *.cabal || true
     - stack exec -- cabal check
-    - stack haddock --no-haddock-deps
     - stack sdist
