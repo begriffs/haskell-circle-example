@@ -1,7 +1,10 @@
-resolver: lts-5.0
+resolver: lts-5.10
 
 ghc-options:
   haskell-circle-example: -Werror -Wall -fwarn-monomorphism-restriction -fwarn-missing-exported-sigs -fwarn-identities
 
 packages:
 - '.'
+
+extra-deps:
+- dead-code-detection-0.6
